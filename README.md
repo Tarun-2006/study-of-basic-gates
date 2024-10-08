@@ -70,7 +70,22 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  RegisterNumber: 212223040226
 
  ## PROGRAM
-![image](https://github.com/user-attachments/assets/7eb33246-bdb2-44e0-b333-3172747082c6)
+Program for logic gates and verify its truth table in quartus using Verilog programming
+
+ Developed by:Tarun S
+ RegisterNumber: 212223040226
+~~~
+module digi_ex_1(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+assign c=a&b;
+assign d=a|b;
+assign e = a^b; 
+assign x = ~(a & b); 
+assign y = ~(a | b); 
+assign z=~(a^b);
+endmodule
+~~~
 
 
 ## Logic symbol & Truthtable
